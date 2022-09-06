@@ -1,0 +1,21 @@
+.menu {
+  display: inline-block;
+}
+.menu.active .menu-list {
+  display: block;
+}
+.menu.active .menu-button span:first-child {
+  display: none;
+}
+.menu.active .menu-button span:last-child {
+  display: block;
+}
+.menu-button span:first-child {
+  display: block;
+}
+.menu-button span:last-child {
+  display: none;
+}
+.menu-list li:not(:last-child) {
+  margin: 0px 0px 15px 0px;
+}
